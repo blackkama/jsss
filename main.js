@@ -13,6 +13,8 @@ else if(password == "")
          fail="Вы не ввели пароль";
 else if(password != repassword)
          fail="Пароли не соводают";
+	 else if(state="")
+         fail="Укажите пол";
  if(fail){
   alert(fail)
   return false;
